@@ -124,7 +124,6 @@ class Controller {
 		window.view.showMix(new_data);
 	}
 	addItem() {
-		console.log('click');
 		let new_course = document.querySelector('.new_course').value;
 		let new_date = document.querySelector('.new_date').value;
 		let new_mark = document.querySelector('.new_mark').value;
